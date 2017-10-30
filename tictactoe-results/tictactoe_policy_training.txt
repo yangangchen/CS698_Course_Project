@@ -1,0 +1,428 @@
+Constructor completed! Time lapse: 2.143218517303467
+
+
+
+ PLAY TIC-TAC-TOE BEFORE AI IS TRAINED
+
+
+
+=========== Welcome to Tic-Tac-Toe ===========
+[[' ' ' ' ' ']
+ [' ' ' ' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 4
+[[' ' ' ' ' ']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.12  0.12  0.12  0.12  0.    0.12  0.12  0.12  0.12]
+equivalent action: 1
+action: 1
+[[' ' 'x' ' ']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 6
+[[' ' 'x' ' ']
+ [' ' 'o' ' ']
+ ['o' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.17  0.    0.17  0.17  0.    0.17  0.    0.17  0.17]
+equivalent action: 6
+action: 2
+[[' ' 'x' 'x']
+ [' ' 'o' ' ']
+ ['o' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 0
+[['o' 'x' 'x']
+ [' ' 'o' ' ']
+ ['o' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.    0.    0.    0.25  0.    0.25  0.    0.25  0.25]
+equivalent action: 5
+action: 5
+[['o' 'x' 'x']
+ [' ' 'o' 'x']
+ ['o' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 8
+[['o' 'x' 'x']
+ [' ' 'o' 'x']
+ ['o' ' ' 'o']]
+=========== Player 1 (Yangang) wins! ===========
+=========== Welcome to Tic-Tac-Toe ===========
+[[' ' ' ' ' ']
+ [' ' ' ' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.11  0.11  0.11  0.11  0.11  0.11  0.11  0.11  0.11]
+equivalent action: 7
+action: 7
+[[' ' ' ' ' ']
+ [' ' ' ' ' ']
+ [' ' 'x' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 4
+[[' ' ' ' ' ']
+ [' ' 'o' ' ']
+ [' ' 'x' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.14  0.14  0.14  0.14  0.    0.14  0.14  0.    0.14]
+equivalent action: 7
+action: 1
+[[' ' 'x' ' ']
+ [' ' 'o' ' ']
+ [' ' 'x' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 2
+[[' ' 'x' 'o']
+ [' ' 'o' ' ']
+ [' ' 'x' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.2  0.   0.   0.2  0.   0.2  0.2  0.   0.2]
+equivalent action: 2
+action: 8
+[[' ' 'x' 'o']
+ [' ' 'o' ' ']
+ [' ' 'x' 'x']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 6
+[[' ' 'x' 'o']
+ [' ' 'o' ' ']
+ ['o' 'x' 'x']]
+=========== Player 1 (Yangang) wins! ===========
+
+
+
+ TRAIN AI TO PLAY TIC-TAC-TOE
+
+
+
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+1000
+1100
+1200
+1300
+1400
+1500
+1600
+1700
+1800
+1900
+Data generation completed! Time lapse: 22.916731595993042
+Policy evaluation completed! Time lapse: 5.904785871505737
+Policy improvement completed! Time lapse: 3.976731300354004
+476.379355619
+Policy evaluation completed! Time lapse: 5.037005662918091
+Policy improvement completed! Time lapse: 2.1930854320526123
+748.608143685
+Policy evaluation completed! Time lapse: 5.835365533828735
+Policy improvement completed! Time lapse: 2.760345458984375
+17.1440903593
+Policy evaluation completed! Time lapse: 5.5380871295928955
+Policy improvement completed! Time lapse: 2.9029958248138428
+0.0192996571429
+Policy evaluation completed! Time lapse: 4.988724708557129
+Policy improvement completed! Time lapse: 2.4934661388397217
+0.0
+Policy iteration succeeds in 4 iterations!
+
+
+
+ PLAY TIC-TAC-TOE AFTER AI IS TRAINED
+
+
+
+=========== Welcome to Tic-Tac-Toe ===========
+[[' ' ' ' ' ']
+ [' ' ' ' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 4
+[[' ' ' ' ' ']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  1.  0.  0.  0.  0.  0.  0.]
+equivalent action: 2
+action: 2
+[[' ' ' ' 'x']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 1
+[[' ' 'o' 'x']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  0.  0.  0.  1.  0.]
+equivalent action: 7
+action: 7
+[[' ' 'o' 'x']
+ [' ' 'o' ' ']
+ [' ' 'x' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 5
+[[' ' 'o' 'x']
+ [' ' 'o' 'o']
+ [' ' 'x' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  0.  0.  0.  0.  1.]
+equivalent action: 0
+action: 8
+[[' ' 'o' 'x']
+ [' ' 'o' 'o']
+ [' ' 'x' 'x']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 3
+[[' ' 'o' 'x']
+ ['o' 'o' 'o']
+ [' ' 'x' 'x']]
+=========== Player 1 (Yangang) wins! ===========
+=========== Welcome to Tic-Tac-Toe ===========
+[[' ' ' ' ' ']
+ [' ' ' ' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  1.  0.  0.  0.  0.]
+equivalent action: 4
+action: 4
+[[' ' ' ' ' ']
+ [' ' 'x' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 0
+[['o' ' ' ' ']
+ [' ' 'x' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  1.  0.  0.  0.  0.  0.  0.]
+equivalent action: 2
+action: 2
+[['o' ' ' 'x']
+ [' ' 'x' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 6
+[['o' ' ' 'x']
+ [' ' 'x' ' ']
+ ['o' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  1.  0.  0.  0.  0.  0.  0.  0.]
+equivalent action: 1
+action: 1
+[['o' 'x' 'x']
+ [' ' 'x' ' ']
+ ['o' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 3
+[['o' 'x' 'x']
+ ['o' 'x' ' ']
+ ['o' ' ' ' ']]
+=========== Player 1 (Yangang) wins! ===========
+=========== Welcome to Tic-Tac-Toe ===========
+[[' ' ' ' ' ']
+ [' ' ' ' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 4
+[[' ' ' ' ' ']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  1.  0.  0.  0.  0.  0.  0.]
+equivalent action: 2
+action: 2
+[[' ' ' ' 'x']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 0
+[['o' ' ' 'x']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  0.  0.  0.  0.  1.]
+equivalent action: 6
+action: 8
+[['o' ' ' 'x']
+ [' ' 'o' ' ']
+ [' ' ' ' 'x']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 3
+[['o' ' ' 'x']
+ ['o' 'o' ' ']
+ [' ' ' ' 'x']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  0.  1.  0.  0.  0.]
+equivalent action: 3
+action: 5
+[['o' ' ' 'x']
+ ['o' 'o' 'x']
+ [' ' ' ' 'x']]
+=========== Player 2 (AI) wins! ===========
+=========== Welcome to Tic-Tac-Toe ===========
+[[' ' ' ' ' ']
+ [' ' ' ' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  1.  0.  0.  0.  0.]
+equivalent action: 4
+action: 4
+[[' ' ' ' ' ']
+ [' ' 'x' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 0
+[['o' ' ' ' ']
+ [' ' 'x' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  1.  0.  0.  0.  0.  0.  0.]
+equivalent action: 2
+action: 2
+[['o' ' ' 'x']
+ [' ' 'x' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 6
+[['o' ' ' 'x']
+ [' ' 'x' ' ']
+ ['o' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  1.  0.  0.  0.  0.  0.  0.  0.]
+equivalent action: 1
+action: 1
+[['o' 'x' 'x']
+ [' ' 'x' ' ']
+ ['o' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 3
+[['o' 'x' 'x']
+ ['o' 'x' ' ']
+ ['o' ' ' ' ']]
+=========== Player 1 (Yangang) wins! ===========
+=========== Welcome to Tic-Tac-Toe ===========
+[[' ' ' ' ' ']
+ [' ' ' ' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 4
+[[' ' ' ' ' ']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  1.  0.  0.  0.  0.  0.  0.]
+equivalent action: 2
+action: 2
+[[' ' ' ' 'x']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 1
+[[' ' 'o' 'x']
+ [' ' 'o' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  0.  0.  0.  1.  0.]
+equivalent action: 7
+action: 7
+[[' ' 'o' 'x']
+ [' ' 'o' ' ']
+ [' ' 'x' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 8
+[[' ' 'o' 'x']
+ [' ' 'o' ' ']
+ [' ' 'x' 'o']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 1.  0.  0.  0.  0.  0.  0.  0.  0.]
+equivalent action: 8
+action: 0
+[['x' 'o' 'x']
+ [' ' 'o' ' ']
+ [' ' 'x' 'o']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 3
+[['x' 'o' 'x']
+ ['o' 'o' ' ']
+ [' ' 'x' 'o']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  0.  1.  0.  0.  0.]
+equivalent action: 1
+action: 5
+[['x' 'o' 'x']
+ ['o' 'o' 'x']
+ [' ' 'x' 'o']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 6
+[['x' 'o' 'x']
+ ['o' 'o' 'x']
+ ['o' 'x' 'o']]
+=========== Player 1 (Yangang) and 2 (AI) tie! ===========
+=========== Welcome to Tic-Tac-Toe ===========
+[[' ' ' ' ' ']
+ [' ' ' ' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  1.  0.  0.  0.  0.]
+equivalent action: 4
+action: 4
+[[' ' ' ' ' ']
+ [' ' 'x' ' ']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 1
+[[' ' 'o' ' ']
+ [' ' 'x' ' ']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  0.  1.  0.  0.  0.]
+equivalent action: 5
+action: 5
+[[' ' 'o' ' ']
+ [' ' 'x' 'x']
+ [' ' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 3
+[[' ' 'o' ' ']
+ ['o' 'x' 'x']
+ [' ' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.    0.    0.33  0.    0.    0.    0.33  0.    0.33]
+equivalent action: 8
+action: 6
+[[' ' 'o' ' ']
+ ['o' 'x' 'x']
+ ['x' ' ' ' ']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 2
+[[' ' 'o' 'o']
+ ['o' 'x' 'x']
+ ['x' ' ' ' ']]
+----- Player 2 (AI)'s turn: -----
+policy: [ 0.  0.  0.  0.  0.  0.  0.  0.  1.]
+equivalent action: 8
+action: 8
+[[' ' 'o' 'o']
+ ['o' 'x' 'x']
+ ['x' ' ' 'x']]
+----- Player 1 (Yangang)'s turn: -----
+Input: location of stone 'o', from 0 (top-left) to 8 (bottom-right): 0
+[['o' 'o' 'o']
+ ['o' 'x' 'x']
+ ['x' ' ' 'x']]
+=========== Player 1 (Yangang) wins! ===========
+
+Process finished with exit code 0
