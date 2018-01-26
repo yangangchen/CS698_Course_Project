@@ -18,4 +18,4 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 **Here are my submissions for the course projects for CS 698, Machine Learning, at University of Waterloo.**
 
-**The project is the implementation of Reinforcement Learning.**
+**The project is the implementation of Reinforcement Learning. The pdf file "Yangang Chen - Reinforcement Learning, Elementary Solution Methods.pdf" is the project report. The rest of the files are the source code.**
